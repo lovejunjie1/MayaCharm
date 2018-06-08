@@ -39,7 +39,7 @@ public class MayaCommInterface {
             tempFile.deleteOnExit();
         }
         catch (IOException e) {
-            Notifications.Bus.notify(MayaNotifications.FILE_FAIL);
+            Notifications.Bus.notify(MayaNotifications.INSTANCE.getFILE_FAIL());
             e.printStackTrace();
         }
         return tempFile;
@@ -54,11 +54,11 @@ public class MayaCommInterface {
             out = new PrintWriter(client.getOutputStream(), true);
 
             String outString = MessageFormat.format(
-                    PythonStrings.EXECFILE, message.toString().replace("\\", "/"));
+                    PythonStrings.INSTANCE.getEXECFILE(), message.toString().replace("\\", "/"));
             out.println(outString);
         }
         catch (IOException e) {
-            Notifications.Bus.notify(MayaNotifications.CONNECTION_REFUSED);
+            Notifications.Bus.notify(MayaNotifications.INSTANCE.getCONNECTION_REFUSED());
             e.printStackTrace();
         }
         finally {
@@ -75,6 +75,7 @@ public class MayaCommInterface {
     }
 
     public void sendCodeToMaya(String message) {
+        System.out.printf(message);
         File file = writeFile(message);
         sendToPort(file);
     }
@@ -85,21 +86,22 @@ public class MayaCommInterface {
     }
 
     public void pyDevSetup() {
-        sendCodeToMaya(PythonStrings.PYDEV_SETUP_SCRIPT);
+        sendCodeToMaya(PythonStrings.INSTANCE.getPydevSetupScript());
     }
 
     public void setTrace(int port, boolean suspend, boolean print) {
-        sendCodeToMaya(String.format(PythonStrings.SETTRACE, host, port, suspend ? "True" : "False", print ? "True" : "False"));
+        sendCodeToMaya(String.format(PythonStrings.INSTANCE.getSETTRACE(),
+                host, port, suspend ? "True" : "False", print ? "True" : "False"));
     }
 
     public void stopTrace() {
-        sendCodeToMaya(PythonStrings.STOPTRACE);
+        sendCodeToMaya(PythonStrings.INSTANCE.getSTOPTRACE());
     }
 
     public void connectMayaLog() {
         final String mayaLogPath = PathManager.getPluginTempPath() + logFilename;
-        String message = PythonStrings.CLOSE_LOG;
-        message += System.lineSeparator() + MessageFormat.format(PythonStrings.OPEN_LOG, mayaLogPath);
+        String message = PythonStrings.INSTANCE.getCLOSE_LOG();
+        message += System.lineSeparator() + MessageFormat.format(PythonStrings.INSTANCE.getOPEN_LOG(), mayaLogPath);
 
         try {
             createMayaLog(mayaLogPath);

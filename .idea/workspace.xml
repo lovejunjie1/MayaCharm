@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94fd6bca-8d39-4f0d-b98d-c4d5a836a97b" name="Default" comment="pCONNECTING TO THE MAYA LOG IS NOW A EXPLICIT ACTION, TO PREVENT ISSUES CAUSED BY EXCESSIVE CONNECTS&#10;CONNECT TO LOG ACTION, NOW CLOSES ALL OPEN LOG FILES FIRST" />
+    <list default="true" id="94fd6bca-8d39-4f0d-b98d-c4d5a836a97b" name="Default" comment="pCONNECTING TO THE MAYA LOG IS NOW A EXPLICIT ACTION, TO PREVENT ISSUES CAUSED BY EXCESSIVE CONNECTS&#10;CONNECT TO LOG ACTION, NOW CLOSES ALL OPEN LOG FILES FIRST">
+      <change afterPath="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/resources/MayaNotifications.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/resources/PythonStrings.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MayaCharm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MayaCharm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/python/pydev_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/python/pydev_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/logconsole/MayaLogConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/logconsole/MayaLogConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/mayacomms/MayaCommInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/mayacomms/MayaCommInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/resources/MayaNotifications.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/resources/PythonStrings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/settings/MCSettingsPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/settings/MCSettingsPanel.java" afterDir="false" />
+    </list>
     <ignored path="MayaCharm2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,12 +31,66 @@
     <favorites_list name="MayaCharm2" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/META-INF/plugin.xml">
+    <leaf>
+      <file leaf-file-name="MayaCommInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/mayacomms/MayaCommInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="408">
+              <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PythonStrings.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/resources/PythonStrings.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pydev_setup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/python/pydev_setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="command_port_setup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/python/command_port_setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MayaCharmConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/settings/MayaCharmConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-312">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MCSettingsProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/settings/MCSettingsProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MCSettingsPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/settings/MCSettingsPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="521">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -38,6 +103,7 @@
         <option value="XSLT Stylesheet" />
         <option value="Python Script" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -47,12 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/configuration/MayaCharmConfigurationFactory.java" />
-        <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/configuration/MayaCharmConfigEditor.form" />
-        <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/settings/MayaCharmConfig.java" />
-        <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/configuration/MayaCharmConfigEditor.java" />
-        <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/configuration/MayaCharmExecutionResult.java" />
-        <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/configuration/MayaCharmProcessHandler.java" />
         <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/configuration/MayaCharmConfigForm.java" />
         <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/configuration/MayaCharmConfigForm.form" />
         <option value="C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/lang/Object.java" />
@@ -62,7 +122,6 @@
         <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/configuration/MayaCharmRunProfileState.java" />
         <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/configuration/MayaCharmRunRunner.java" />
         <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/configuration/MayaCharmRunner.java" />
-        <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/settings/MCSettingsPanel.java" />
         <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/iMayaCharmRunConfiguration.java" />
         <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/configuration/MayaCharmRunConfiguration.java" />
         <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/debug/MayaCharmRunner.java" />
@@ -90,14 +149,21 @@
         <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/MayaCharmRunConfiguration.java" />
         <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/debug/MayaCharmDebugConfig.java" />
         <option value="$USER_HOME$/AppData/Local/JetBrains/Toolbox/apps/PyCharm-P/ch-0/171.4424.42/lib/pycharm.jar!/com/intellij/diagnostic/logging/LogConsoleImpl.class" />
-        <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/resources/PythonStrings.java" />
-        <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/mayacomms/MayaCommInterface.java" />
         <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/actions/SendSelectionAction.java" />
         <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/actions/SendBufferAction.java" />
         <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/MayaCharmRunner.java" />
         <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/logconsole/MayaLogWindow.java" />
         <option value="$PROJECT_DIR$/src/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/resources/MayaNotifications.kt" />
+        <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/resources/PythonStrings.java" />
+        <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/resources/PythonString2.kt" />
+        <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/resources/PythonStrings2.kt" />
         <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/logconsole/MayaLogConsole.java" />
+        <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/settings/MCSettingsPanel.java" />
+        <option value="$PROJECT_DIR$/resources/python/command_port_setup.py" />
+        <option value="$PROJECT_DIR$/resources/python/pydev_setup.py" />
+        <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/mayacomms/MayaCommInterface.java" />
+        <option value="$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/resources/PythonStrings.kt" />
       </list>
     </option>
   </component>
@@ -123,46 +189,6 @@
     <option name="width" value="2576" />
     <option name="height" value="1426" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Android Lint</id>
-          </State>
-          <State>
-            <id>General</id>
-          </State>
-          <State>
-            <id>GeneralJava</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Kotlin</id>
-          </State>
-          <State>
-            <id>Maven</id>
-          </State>
-          <State>
-            <id>Plugin DevKit</id>
-          </State>
-          <State>
-            <id>XPath</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Java</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -170,7 +196,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -182,12 +207,80 @@
             <path>
               <item name="MayaCharm" type="b2602c69:ProjectViewProjectNode" />
               <item name="MayaCharm" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MayaCharm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MayaCharm" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MayaCharm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MayaCharm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MayaCharm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MayaCharm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mayacharm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MayaCharm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MayaCharm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mayacharm" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MayaCharm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MayaCharm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mayacharm" type="462c0819:PsiDirectoryNode" />
+              <item name="flavors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MayaCharm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MayaCharm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mayacharm" type="462c0819:PsiDirectoryNode" />
+              <item name="logconsole" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MayaCharm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MayaCharm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mayacharm" type="462c0819:PsiDirectoryNode" />
+              <item name="mayacomms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MayaCharm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MayaCharm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mayacharm" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MayaCharm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MayaCharm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mayacharm" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MayaCharm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MayaCharm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mayacharm" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
+              <item name="MCSettingsPanel" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -196,7 +289,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="mayacharm" />
-    <property name="SearchEverywhereHistoryKey" value="action&#9;FILE&#9;file://E:/TechArt/MayaCharm/src/ca/rightsomegoodgames/mayacharm/actions/ConnectMayaLogAction.java&#10;mayacommin&#9;FILE&#9;file://E:/TechArt/MayaCharm/src/ca/rightsomegoodgames/mayacharm/mayacomms/MayaCommInterface.java&#10;pyth&#9;FILE&#9;file:///Users/chris/RightSomeGoodGames/MayaCharm/src/ca/rightsomegoodgames/mayacharm/resources/PythonStrings.java&#10;mayalogw&#9;FILE&#9;file:///Users/chris/RightSomeGoodGames/MayaCharm/src/ca/rightsomegoodgames/mayacharm/logconsole/MayaLogWindow.java" />
+    <property name="SearchEverywhereHistoryKey" value="maya&#9;FILE&#9;file://E:/TechArt/MayaCharm/src/ca/rightsomegoodgames/mayacharm/mayacomms/MayaCommInterface.java&#10;fla&#9;FILE&#9;file://E:/TechArt/MayaCharm/src/ca/rightsomegoodgames/mayacharm/flavors/MayaSdkFlavor.kt&#10;action&#9;FILE&#9;file://E:/TechArt/MayaCharm/src/ca/rightsomegoodgames/mayacharm/actions/ConnectMayaLogAction.java&#10;mayacommin&#9;FILE&#9;file://E:/TechArt/MayaCharm/src/ca/rightsomegoodgames/mayacharm/mayacomms/MayaCommInterface.java&#10;pyth&#9;FILE&#9;file:///Users/chris/RightSomeGoodGames/MayaCharm/src/ca/rightsomegoodgames/mayacharm/resources/PythonStrings.java&#10;mayalogw&#9;FILE&#9;file:///Users/chris/RightSomeGoodGames/MayaCharm/src/ca/rightsomegoodgames/mayacharm/logconsole/MayaLogWindow.java" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="327" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -208,7 +301,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -500,7 +593,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21181000" />
+    <option name="totallyTimeSpent" value="29482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="2576" height="1426" extended-state="6" />
@@ -508,7 +601,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32531056" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3255814" />
       <window_info id="Palette&#9;" order="0" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -516,18 +609,20 @@
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3294621" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32919255" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48139158" visible="true" weight="0.3090062" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48139158" weight="0.26785713" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="3" weight="0.30956239" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.1518283" />
       <window_info anchor="right" id="Database" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32841614" />
+      <window_info anchor="right" id="SciView" order="5" />
       <window_info anchor="right" id="Structure" order="2" side_tool="true" weight="0.3361858" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Favorites" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32946634" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32919255" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5186084" side_tool="true" weight="0.26836812" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
@@ -540,6 +635,7 @@
       <window_info anchor="right" id="Palette" order="1" />
       <window_info id="Palette&#9;" order="0" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3294621" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32946634" />
       <window_info anchor="bottom" id="Profiler" order="8" />
       <window_info id="Image Layers" order="2" />
@@ -554,33 +650,31 @@
       <window_info anchor="right" id="Properties" order="3" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32869297" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48139158" weight="0.26821706" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3255814" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Designer" order="5" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32964602" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" order="9" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Project" order="1" visible="true" weight="0.26528117" />
       <window_info anchor="right" id="Structure" order="2" weight="0.3361858" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48139158" visible="true" weight="0.269103" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
       <window_info anchor="right" id="Designer" order="4" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="UI Designer" order="1" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33001107" />
       <window_info id="Palette&#9;" order="0" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5186084" side_tool="true" weight="0.269103" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Application Servers" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32964602" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32632744" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3294621" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -588,6 +682,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -632,18 +736,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/debug/MayaCharmDebugForm.java</url>
-          <line>69</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="41" />
+      <option name="time" value="44" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -651,9 +747,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files (x86)/JetBrains/PyCharm 5.0.3/lib/pycharm.jar!/com/intellij/execution/impl/ExecutionManagerImpl.class" />
-    <entry file="jar://C:/Program Files (x86)/JetBrains/PyCharm 5.0.3/lib/openapi.jar!/com/intellij/util/concurrency/QueueProcessor.class" />
-    <entry file="jar://C:/Program Files (x86)/JetBrains/PyCharm 5.0.3/lib/pycharm.jar!/com/intellij/openapi/application/impl/LaterInvocator.class" />
     <entry file="jar://C:/Program Files (x86)/JetBrains/PyCharm 5.0.3/lib/pycharm.jar!/com/intellij/ide/IdeEventQueue.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/lang/ProcessImpl.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/jre/lib/rt.jar!/sun/nio/cs/StreamEncoder.class" />
@@ -661,45 +754,10 @@
     <entry file="jar://C:/Program Files (x86)/JetBrains/PyCharm 5.0.3/lib/pycharm.jar!/com/intellij/xdebugger/impl/XDebuggerManagerImpl.class" />
     <entry file="jar://C:/Program Files (x86)/JetBrains/PyCharm 5.0.3/lib/pycharm.jar!/com/jetbrains/python/debugger/remote/PyRemoteDebugRunner.class" />
     <entry file="jar://C:/Program Files (x86)/JetBrains/PyCharm 5.0.3/lib/pycharm.jar!/com/jetbrains/python/debugger/PyRemoteDebugProcess.class" />
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/settings/MCSettingsPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/JetBrains/PyCharm 5.0.3/lib/pycharm.jar!/com/jetbrains/python/debugger/remote/PyRemoteDebugConfigurationType.class" />
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/settings/MayaCharmConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/settings/MCSettingsProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="21" column="78" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/JetBrains/PyCharm 5.0.3/lib/pycharm.jar!/com/intellij/xdebugger/impl/XDebugSessionImpl.class" />
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/resources/MayaNotifications.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/icons/MayaCharm_ToolWindow.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/python/pydev_setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
@@ -715,131 +773,15 @@
       <provider selected="true" editor-type-id="ui-designer" />
       <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/debug/MayaCharmDebugConfigFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/debug/MayaCharmDebugConfigType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/MayaCharmConfigurationFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/MayaCharmRunProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/MayaCharmConfigForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/MayaCharmConfigForm.form">
       <provider selected="true" editor-type-id="ui-designer" />
       <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/MayaCharmConfigurationType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/debug/MayaCharmDebugForm.form">
       <provider selected="true" editor-type-id="ui-designer" />
       <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/MayaCharmConfigEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/MayaCharmRunConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="26" column="102" selection-start-line="26" selection-start-column="102" selection-end-line="26" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/debug/MayaCharmDebugForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/debug/MayaCharmDebugEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/debug/MayaCharmDebugConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/AppData/Local/JetBrains/Toolbox/apps/PyCharm-P/ch-0/171.4424.42/lib/pycharm.jar!/com/intellij/diagnostic/logging/LogConsoleImpl.class" />
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/resources/PythonStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/actions/SendSelectionAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/actions/SendBufferAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/actions/BaseSendAction.java" />
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/actions/ConnectMayaLogAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/mayacomms/MayaCommInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/META-INF/mayacharm-runner-support.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -854,24 +796,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/debug/MayaCharmDebugRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="340">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/MayaCharmRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/resources/MayaNotifications.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/debug/MayaCharmDebugProcess.java">
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/resources/PythonStrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        <state relative-caret-position="969">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/actions/BaseSendAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/actions/ConnectMayaLogAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/actions/SendBufferAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/actions/SendSelectionAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
@@ -884,15 +854,158 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/logconsole/MayaLogConsole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="510">
+          <caret line="30" column="131" selection-start-line="30" selection-start-column="131" selection-end-line="30" selection-end-column="131" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/META-INF/plugin.xml">
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/MayaCharmConfigEditor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/MayaCharmConfigurationFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/MayaCharmConfigurationType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/MayaCharmRunConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-338">
+          <caret line="26" column="102" selection-start-line="26" selection-start-column="102" selection-end-line="26" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/MayaCharmRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/MayaCharmRunProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/debug/MayaCharmDebugForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/debug/MayaCharmDebugRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/debug/MayaCharmDebugConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/debug/MayaCharmDebugProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="866">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/debug/MayaCharmDebugConfigFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/debug/MayaCharmDebugConfigType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/debug/MayaCharmDebugEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/flavors/MayaSdkFlavor.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/settings/MayaCharmConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/run/MayaCharmConfigForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/settings/MCSettingsPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/settings/MCSettingsProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/python/command_port_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/python/pydev_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/mayacomms/MayaCommInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/rightsomegoodgames/mayacharm/resources/PythonStrings.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -913,7 +1026,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Python</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

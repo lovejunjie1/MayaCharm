@@ -6,6 +6,7 @@ import com.intellij.openapi.util.text.StringUtil;
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
+import java.text.MessageFormat;
 
 public class MCSettingsPanel {
     private JPanel myPanel;
@@ -20,20 +21,24 @@ public class MCSettingsPanel {
         portField.getDocument().addDocumentListener(new DocumentListener() {
             @Override
             public void insertUpdate(DocumentEvent e) {
-                mayaString.setText(String.format(PythonStrings.CMDPORT_SETUP_SCRIPT, portField.getText()));
+                mayaString.setText(formatCmdText());
             }
 
             @Override
             public void removeUpdate(DocumentEvent e) {
-                mayaString.setText(String.format(PythonStrings.CMDPORT_SETUP_SCRIPT, portField.getText()));
+                mayaString.setText(formatCmdText());
             }
 
             @Override
             public void changedUpdate(DocumentEvent e) {
-                mayaString.setText(String.format(PythonStrings.CMDPORT_SETUP_SCRIPT, portField.getText()));
+                mayaString.setText(formatCmdText());
             }
         });
         reset();
+    }
+
+    private String formatCmdText() {
+        return String.format(PythonStrings.INSTANCE.getCmdportSetupScript(), portField.getText());
     }
 
     public JComponent createPanel() {

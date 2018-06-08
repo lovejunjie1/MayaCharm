@@ -28,7 +28,7 @@ public class MayaLogConsole extends LogConsoleImpl {
 
         super.setContentPreprocessor(x-> {
             final List<LogFragment> lFrag = new ArrayList<>();
-            boolean checks = x.startsWith(PythonStrings.PYSTDERR) || x.startsWith(PythonStrings.PYSTDWRN);
+            boolean checks = x.startsWith(PythonStrings.INSTANCE.getPYSTDERR()) || x.startsWith(PythonStrings.INSTANCE.getPYSTDWRN());
             Key outType = (checks) ? ProcessOutputTypes.STDERR : ProcessOutputTypes.STDOUT;
             lFrag.add(new LogFragment(x, outType));
             return lFrag;
