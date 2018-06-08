@@ -6,7 +6,6 @@ import com.intellij.openapi.util.text.StringUtil;
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
-import java.text.MessageFormat;
 
 public class MCSettingsPanel {
     private JPanel myPanel;
