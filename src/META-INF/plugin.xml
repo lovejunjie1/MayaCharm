@@ -1,4 +1,4 @@
-<idea-plugin version="2">
+<idea-plugin>
   <id>ca.rightsomegoodgames.mayacharm</id>
   <name>MayaCharm</name>
   <version>2.2.0</version>
@@ -24,7 +24,7 @@
     ]]>
   </change-notes>
 
-  <idea-version since-build="131"/>
+  <idea-version since-build="143"/>
 
   <depends>com.intellij.modules.python</depends>
   <depends config-file="mayacharm-debugger-support.xml" optional="true">org.jetbrains.plugins.python-remote-interpreter</depends>
