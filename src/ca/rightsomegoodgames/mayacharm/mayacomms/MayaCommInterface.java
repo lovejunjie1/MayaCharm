@@ -75,7 +75,6 @@ public class MayaCommInterface {
     }
 
     public void sendCodeToMaya(String message) {
-        System.out.printf(message);
         File file = writeFile(message);
         sendToPort(file);
     }
